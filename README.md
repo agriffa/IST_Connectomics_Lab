@@ -1,4 +1,4 @@
-# IST Winter School 2026 - Connectomics Lab (Python + Colab)
+# IST Winter School 2026 - Connectomics Lab
 
 This repository contains material for the **Connectomics
 Hands-On**.\
@@ -6,7 +6,9 @@ The lab introduces basic **network neuroscience / connectomics**
 concepts using graph-theoretic measures.
 
 The notebook is designed to run entirely in **Google Colab**, so
-students do **not need to install Python** locally.
+students do **not need to install Python** locally.\
+However, section **Running locally (optional)** below provides instructions
+to run the lab on a local machine.
 
 ------------------------------------------------------------------------
 
@@ -21,7 +23,6 @@ When the notebook opens:
 
 1.  Click **File → Save a copy in Drive**
 2.  Close GitHub 'IST_Connectomics_Lab_colab.ipynb' 
-2.  Click **Runtime → Run all**
 3.  Work through the exercises.
 
 ------------------------------------------------------------------------
