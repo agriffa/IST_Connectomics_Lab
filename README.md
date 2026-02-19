@@ -112,7 +112,7 @@ No manual installation is needed.
     ```
 4.  Open *IST_Connectomics_Lab_colab.ipynb* in JupyterLab.
 
-**Important:** start JupyterLab from inside the repository folder:
+**IMPORTANT** start JupyterLab from inside the repository folder:
 ```
 cd IST_Connectomics_Lab-main
 jupyter lab
@@ -123,4 +123,4 @@ jupyter lab
 ## License
 
 -   Code: MIT License
--   Data: CC BY 4.0
+-   Data: CC BY 4.0 (see *DATA_LICENSE.md*)
