@@ -69,7 +69,7 @@ During this lab you will learn how to:
 
   **Brainlab_Connectomics_Labels.json**   Brain region labels
                                           
-  **Edist.npy**                           Euclidean distance between region
+  **Euclidean_Distance.npy**              Euclidean distance between region
                                           centroids
   ---------------------------------------------------------------------------
 
@@ -96,13 +96,12 @@ No manual installation is needed.
 1.  Downalod the Connectomics Lab material from GitHub
     [IST_Connectomics_Lab](https://github.com/agriffa/IST_Connectomics_Lab/tree/main)
     and unzip the folder.
-2.  Open a terminal and `cd` to the Connectomics Lab folder
-    you have just downloaded:
-    `cd IST_Connectomics_Lab-main`
-4.  Check whether conda is available on your machine by typing
-    `conda info`.
+2.  Check whether conda is available on your machine by typing
+    ```
+    conda info
+    ```
     If conda is not available on your machine, [install miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install)
-5.  Create a conda environment for this lab, activate the environment,
+3.  Create a conda environment for this lab, activate the environment,
     install required Python libraries, and start JupyterLab:
     
     ```
@@ -111,8 +110,7 @@ No manual installation is needed.
     pip install numpy matplotlib bctpy seaborn statsmodels jupyter
     jupyter lab
     ```
-
-6.  Open `IST_Connectomics_Lab_colab.ipynb`.
+4.  Open *IST_Connectomics_Lab_colab.ipynb* in JupyterLab.
 
 IMPORTANT: start JupyterLab from inside the repository folder:
 ```
