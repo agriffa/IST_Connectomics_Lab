@@ -68,8 +68,8 @@ During this lab you will learn how to:
                                           (CTRL and SCHZ)
 
   **Brainlab_Connectomics_Labels.json**   Brain region labels
-                                          
-  **Euclidean_Distance.npy**              Euclidean distance between region
+
+  **Euclidean_Distance.npz**              Euclidean distance between region
                                           centroids
   ---------------------------------------------------------------------------
 
