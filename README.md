@@ -100,9 +100,9 @@ No manual installation is needed.
     ```
     conda info
     ```
-    If conda is not available on your machine, [install miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install)
+    If conda is not available on your machine, [install miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install).
 3.  Create a conda environment for this lab, activate the environment,
-    install required Python libraries, and start JupyterLab:
+    *pip* install the required Python libraries, and start JupyterLab:
     
     ```
     conda create -n brainlab_env python=3.11
@@ -112,7 +112,7 @@ No manual installation is needed.
     ```
 4.  Open *IST_Connectomics_Lab_colab.ipynb* in JupyterLab.
 
-IMPORTANT: start JupyterLab from inside the repository folder:
+**Important:** start JupyterLab from inside the repository folder:
 ```
 cd IST_Connectomics_Lab-main
 jupyter lab
