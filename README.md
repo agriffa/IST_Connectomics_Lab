@@ -94,28 +94,31 @@ No manual installation is needed.
 ## Running locally (optional)
 
 1.  Downalod the Connectomics Lab material from GitHub
-    https://github.com/agriffa/IST_Connectomics_Lab/tree/main
+    [IST_Connectomics_Lab](https://github.com/agriffa/IST_Connectomics_Lab/tree/main)
     and unzip the folder.
 2.  Open a terminal and `cd` to the Connectomics Lab folder
     you have just downloaded:
     `cd IST_Connectomics_Lab-main`
 4.  Check whether conda is available on your machine by typing
     `conda info`.
-    If conda is not available on your machine, install miniconda:
-    https://www.anaconda.com/docs/getting-started/miniconda/install
+    If conda is not available on your machine, [install miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install)
 5.  Create a conda environment for this lab, activate the environment,
-    pip install required Python libraries, and start JupyterLab:
+    install required Python libraries, and start JupyterLab:
     
-    `conda create -n brainlab_env python=3.11`
-    `conda activate brainlab_env`
-    `pip install numpy matplotlib bctpy seaborn statsmodels jupyter`
-    `jupyter lab`
+    ```
+    conda create -n brainlab_env python=3.11
+    conda activate brainlab_env
+    pip install numpy matplotlib bctpy seaborn statsmodels jupyter
+    jupyter lab
+    ```
 
 6.  Open `IST_Connectomics_Lab_colab.ipynb`.
 
 IMPORTANT: start JupyterLab from inside the repository folder:
-`cd IST_Connectomics_Lab-main`
-`jupyter lab`
+```
+cd IST_Connectomics_Lab-main
+jupyter lab
+```
 
 ------------------------------------------------------------------------
 
