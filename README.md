@@ -107,10 +107,12 @@ No manual installation is needed.
     ```
     conda create -n brainlab_env python=3.11
     conda activate brainlab_env
-    pip install numpy matplotlib bctpy seaborn statsmodels jupyter
+    pip install numpy matplotlib bctpy seaborn statsmodels jupyter ipykernel
+    python -m ipykernel install --user --name brainlab_env
     jupyter lab
     ```
 4.  Open *IST_Connectomics_Lab_colab.ipynb* in JupyterLab.
+    Select 'brainlab_env' kernel using the menu on the top right corner.  
 
 **IMPORTANT** start JupyterLab from inside the repository folder:
 ```
